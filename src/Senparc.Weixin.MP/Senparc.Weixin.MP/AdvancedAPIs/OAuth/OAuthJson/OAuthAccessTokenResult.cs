@@ -25,6 +25,7 @@ namespace Senparc.Weixin.MP.AdvancedAPIs.OAuth
     /// 获取OAuth AccessToken的结果
     /// 如果错误，返回结果{"errcode":40029,"errmsg":"invalid code"}
     /// </summary>
+    [Serializable]
     public class OAuthAccessTokenResult : WxJsonResult
     {
         /// <summary>
